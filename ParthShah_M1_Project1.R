@@ -17,7 +17,9 @@ Sales <- c(7, 11, 15, 20, 19, 11, 18, 10, 6, 22)
 Temperature <- c(69, 81, 77, 84, 80, 97, 87, 70, 65, 90)
 
 #Plot sales ~ Temperature
-plot(Sales ~ Temperature)
+plot(Sales ~ Temperature, 
+     xlab = "Various Temperature", 
+     ylab = "Sales data")
 
 
 #Mean
