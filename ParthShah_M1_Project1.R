@@ -17,7 +17,7 @@ Sales <- c(7, 11, 15, 20, 19, 11, 18, 10, 6, 22)
 Temperature <- c(69, 81, 77, 84, 80, 97, 87, 70, 65, 90)
 
 #Plot sales ~ Temperature
-plot(Sales ~  Temperature)
+plot(Sales ~ Temperature)
 
 
 #Mean
@@ -36,8 +36,7 @@ name <- c("Tom", "Dick", "Harry")
 name
 
 #Creating matrix 
-p <- matrix(1:10, nrow =5, ncol =2)
-View(p)
+matrix(1:10 , nrow = 5 , ncol = 2)
 
 #Dataframes
 icSales <- data.frame(Sales, Temperature)
@@ -50,10 +49,9 @@ structure(icSales)
 summary(icSales)
 
 #Import data
-library(readr)
-Student <- read_csv("R/ALY6000/Module1/Student.csv")
+library(readxl)
+Student <- read_excel("C:/Users/prbsh/Desktop/Student.xlsx")
 View(Student)
-#~/R/ALY6000/Module1/Student.csv
 
 #display names of students
 ls(Student)
